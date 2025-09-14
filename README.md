@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Bus Tracking Application
 
 A comprehensive Android application for tracking school buses in real-time, built with Java and following Material Design 3 principles.
@@ -260,3 +261,6 @@ For support and questions:
 
 **Built with ❤️ for student safety and convenience**
 
+=======
+# bus-tracking-student-
+>>>>>>> f6f6a12068a13e44b780f5830e46767a2873d9e5
