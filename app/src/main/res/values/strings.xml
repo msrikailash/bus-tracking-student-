@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Student Bus Tracker</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="student_id">Student ID</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="biometric_login">Use Biometric Login</string>
+    <string name="login_success">Login Successful</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="register_success">Registration Successful</string>
+    <string name="register_failed">Registration Failed</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tracking">Bus Tracking</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_checkin">Check-in</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_history">Trip History</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Bus Tracking -->
+    <string name="bus_location">Bus Location</string>
+    <string name="current_location">Current Location</string>
+    <string name="eta">ETA</string>
+    <string name="next_stop">Next Stop</string>
+    <string name="bus_speed">Speed</string>
+    <string name="route_info">Route Information</string>
+    <string name="refresh_location">Refresh Location</string>
+    <string name="tracking_bus">Tracking Bus</string>
+    <string name="bus_not_moving">Bus Not Moving</string>
+    <string name="bus_delayed">Bus Delayed</string>
+    
+    <!-- Schedule -->
+    <string name="daily_schedule">Daily Schedule</string>
+    <string name="weekly_schedule">Weekly Schedule</string>
+    <string name="pickup_time">Pickup Time</string>
+    <string name="dropoff_time">Drop-off Time</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="schedule_changes">Schedule Changes</string>
+    <string name="no_schedule">No schedule available</string>
+    
+    <!-- Check-in/Check-out -->
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="manual_checkin">Manual Check-in</string>
+    <string name="location_verification">Location Verification</string>
+    <string name="checkin_success">Check-in Successful</string>
+    <string name="checkout_success">Check-out Successful</string>
+    <string name="checkin_failed">Check-in Failed</string>
+    <string name="location_not_verified">Location not verified</string>
+    <string name="qr_scan_failed">QR Code scan failed</string>
+    
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="bus_arrival">Bus Arrival</string>
+    <string name="bus_delay">Bus Delay</string>
+    <string name="emergency_alert">Emergency Alert</string>
+    <string name="schedule_change">Schedule Change</string>
+    <string name="mark_as_read">Mark as Read</string>
+    <string name="clear_all">Clear All</string>
+    <string name="no_notifications">No notifications</string>
+    
+    <!-- Trip History -->
+    <string name="trip_history">Trip History</string>
+    <string name="attendance_record">Attendance Record</string>
+    <string name="trip_date">Trip Date</string>
+    <string name="checkin_time">Check-in Time</string>
+    <string name="checkout_time">Check-out Time</string>
+    <string name="trip_duration">Trip Duration</string>
+    <string name="export_data">Export Data</string>
+    <string name="no_trips">No trips recorded</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_grade">Grade</string>
+    <string name="assigned_bus">Assigned Bus</string>
+    <string name="bus_number">Bus Number</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="driver_phone">Driver Phone</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="parent_phone">Parent Phone</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="profile_updated">Profile Updated</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="system_theme">System Theme</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="location_permission_required">Location permission is required for bus tracking</string>
+    <string name="camera_permission_required">Camera permission is required for QR scanning</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_location">Unable to get location. Please enable location services.</string>
+    <string name="error_auth">Authentication failed. Please check your credentials.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_invalid_qr">Invalid QR code. Please scan a valid bus stop QR code.</string>
+    <string name="error_checkin_location">You are not at a valid bus stop location.</string>
+    
+    <!-- Google Maps -->
+    <string name="google_maps_key">AIzaSyA-9yz_aGnWJPdzy9C6bpZtFuvMvd7SqA4</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <!-- Check-in/Check-out Additional -->
+    <string name="check_in_out">Check In/Out</string>
+    <string name="location_loading">Getting your location...</string>
+    <string name="check_in_options">Check-in Options</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_qr_description">Scan QR code at bus stop</string>
+    <string name="manual_check_in">Manual Check-in</string>
+    <string name="manual_check_in_description">Use GPS location</string>
+    <string name="check_in_instructions">Select an option above to check in or out</string>
+    
+    <!-- Maps Additional -->
+    <string name="real_time_tracking">Real-time Tracking</string>
+    <string name="center_location">Center on my location</string>
+    <string name="bus_icon">Bus icon</string>
+    <string name="on_time">On Time</string>
+    <string name="route_information">Route Information</string>
+    <string name="route_number">Route Number</string>
+    <string name="total_stops">Total Stops</string>
+    
+    <!-- Quick Actions -->
+    <string name="quick_actions">Quick Actions</string>
+    
+    <!-- Common Additional -->
+    <string name="arrow_forward">Arrow forward</string>
+    <string name="gps_location">GPS location</string>
+    <string name="qr_code_scan">QR code scan</string>
+    
+    <!-- Time Formats -->
+    <string name="time_format">HH:mm</string>
+    <string name="date_format">MMM dd, yyyy</string>
+    <string name="datetime_format">MMM dd, yyyy HH:mm</string>
+    
+</resources>
